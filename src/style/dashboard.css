@@ -1,0 +1,143 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.menuItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.topRow {
+  width: 220px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  font-size: 28px;
+  font-weight: 800;
+  color: #222224;
+}
+
+.divider {
+  border-left: 1px solid #ffff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100vh;
+}
+
+.dividerHorizontal {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ecedf0;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.livePreviewContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-top: 32px;
+  width: 200px;
+  border-radius: 12px;
+  color: #222224;
+  background: #ecedf0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.textLivePreview {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 2px;
+  padding-left: 16px;
+}
+
+.actionContainer {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 200px;
+  border-radius: 12px;
+  border-color: #ecedf0;
+
+  border-width: 1;
+  color: #222224;
+  background: #ffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.listOrientation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.todoItemsAndPreviewRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.itemsListContainer {
+  border: 1px solid #ecedf0;
+  border-radius: 12px;
+  background: #ffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+}
+
+.mobilePreviewContainer {
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+.itemNameContainer {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  width: 200px;
+}
+
+.iconContainer {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Inter';
+}
+
+.deleteIcon {
+  color: #bdbdc1;
+  padding-left: 10px;
+  padding-right: 10px;
+}

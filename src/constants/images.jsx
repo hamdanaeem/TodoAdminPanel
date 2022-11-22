@@ -1,0 +1,16 @@
+export { default as dashboard } from '../assets/images/dashboard.png';
+export { default as page1 } from '../assets/images/page1Icon.png';
+export { default as page2 } from '../assets/images/page2Icon.png';
+export { default as page3 } from '../assets/images/page3Icon.png';
+export { default as exit } from '../assets/images/exit.png';
+export { default as preview } from '../assets/images/preview.png';
+export { default as actionIcon } from '../assets/images/actionIcon.png';
+export { default as todoIcon } from '../assets/images/todoIcon.png';
+export { default as todoListIcon } from '../assets/images/todoListIcon.png';
+export { default as userIcon } from '../assets/images/userIcon.png';
+export { default as checkMarkCircular } from '../assets/images/checkMarkCircular.png';
+export { default as actionCardImg } from '../assets/images/actionCardImg.png';
+export { default as task } from '../assets/images/task.png';
+export { default as home } from '../assets/images/home.png';
+export { default as group } from '../assets/images/group.png';
+export { default as nodatafound } from '../assets/images/nodatafound.png';

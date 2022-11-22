@@ -1,0 +1,88 @@
+.scrollableList {
+  height: 100%;
+  overflow: scroll;
+}
+.emptyImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.itemMargin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.todoCard {
+  display: flex;
+  border-radius: 12px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 16px;
+  box-shadow: 0px 1.70149px 5.10448px rgba(0, 0, 0, 0.06);
+}
+
+.actionCard {
+  display: flex;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0px 1.70149px 5.10448px rgba(0, 0, 0, 0.06);
+}
+
+.todoText {
+  margin-left: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.6119px;
+  line-height: 16px;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.img-responsive {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.img-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  width: 100%;
+  height: 35%;
+  background: #ffff;
+  text-align: center;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 85.0746px;
+  text-align: center;
+  background: transparent;
+  border: 1.70149px solid #222224;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.6119px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 54px;
+  padding-right: 54px;
+}
